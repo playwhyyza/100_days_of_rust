@@ -1,0 +1,16 @@
+Cargo
+
+
+cargo --version
+cargo new hello_cargo
+cargo build
+    you can run the executable with this command -> ./target/debug/hello_cargo
+cargo run
+cargo check
+cargo build --release
+
+
+Cargo as Convention
+    $ git clone example.org/someproject
+    $ cd someproject
+    $ cargo build
