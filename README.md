@@ -11,3 +11,9 @@ Alright, I think it's time for a fresh start.
 Hoping this time it'll acutally work out.
 
 This time, I'm planning to learn Rust gonna follow this guide: https://doc.rust-lang.org/book/ and  https://rust-lang.github.io/fls/
+
+
+------------------------------
+
+What's coming up next:
+- https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html#generating-a-secret-number
