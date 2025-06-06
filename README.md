@@ -15,5 +15,5 @@ This time, I'm planning to learn Rust gonna follow this guide: https://doc.rust-
 
 ------------------------------
 
-What's coming up next:
+<B>What's coming up next:</B>
 - https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html#generating-a-secret-number
