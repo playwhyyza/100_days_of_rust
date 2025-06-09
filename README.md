@@ -14,18 +14,21 @@ This time, I'm planning to learn Rust gonna follow this guide: https://doc.rust-
 
 ------------------------------
 
-https://crates.io/
+ - https://crates.io/
     - The rust community's crats registry
     - look like pypi.org of python
 
-cargo new {project_name}
+ - cargo new {project_name}
 
-cargo add {denpencies}
+ - cargo add {denpencies}
 
-cargo build {when you add new dependencies}
+ - cargo build {when you add new dependencies}
     - if haven't anything changed, so Cargo knows it can reuse what it has already downloaded and complied for those.
 
-cargo run // execute programe
+ - cargo run // execute programe
+
+ - cargo update 
+    - when you do want to update a crate
 
 ------------------------------
 
