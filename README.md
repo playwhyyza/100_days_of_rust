@@ -12,6 +12,20 @@ Hoping this time it'll acutally work out.
 
 This time, I'm planning to learn Rust gonna follow this guide: https://doc.rust-lang.org/book/ and  https://rust-lang.github.io/fls/
 
+------------------------------
+
+https://crates.io/
+    - The rust community's crats registry
+    - look like pypi.org of python
+
+cargo new {project_name}
+
+cargo add {denpencies}
+
+cargo build {when you add new dependencies}
+    - if haven't anything changed, so Cargo knows it can reuse what it has already downloaded and complied for those.
+
+cargo run // execute programe
 
 ------------------------------
 
