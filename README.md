@@ -31,6 +31,9 @@ This time, I'm planning to learn Rust gonna follow this guide: https://doc.rust-
  - cargo update 
     - when you do want to update a crate
 
+ - cargo doc --open
+    - build documentation provided by all your dependencies locally and open it in your browser
+
 ------------------------------
 
 <B>What's coming up next:</B>
