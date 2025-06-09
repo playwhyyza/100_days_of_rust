@@ -18,6 +18,15 @@ fn main() {
 
         // let guess: u32 = guess.trim().parse().expect("Please type a number!");
 
+        /* 
+            convert string to unsigned, 32-bit integer.
+            trim
+                method on a String instance will eliminate any whitespace at the beginning and end
+            parse
+                which can only contain numerical data. 
+                The user must press enter to satisfy read_line and input their guess,
+                which adds a newline character to the string.  
+        */
         let guess: u32 = match guess.trim().parse() {
             Ok(num) => num, // value will match the first arm's pattern
             Err(_) => continue, // which tells the programe to go the next iteration of the loop
