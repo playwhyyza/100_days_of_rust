@@ -22,7 +22,8 @@ This time, I'm planning to learn Rust gonna follow this guide: https://doc.rust-
 
  - cargo add {denpencies}
 
- - cargo build {when you add new dependencies}
+ - cargo build
+    - when you add new dependencies
     - if haven't anything changed, so Cargo knows it can reuse what it has already downloaded and complied for those.
 
  - cargo run // execute programe
