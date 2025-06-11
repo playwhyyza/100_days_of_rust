@@ -88,6 +88,8 @@ fn main() {
     // Loop Labels to Disambiguate Between Multiple Loops
 
     /*
+        Loop labels must begin with a single quote. 
+
         The outer loop has the label 'counting_up, 
         and it will count up from 0 to 2. 
         The inner loop without a label counts down from 10 to 9. 
