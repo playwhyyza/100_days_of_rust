@@ -37,4 +37,4 @@ This time, I'm planning to learn Rust gonna follow this guide: https://doc.rust-
 ------------------------------
 
 <B>What's coming up next:</B>
-- https://doc.rust-lang.org/book/ch03-03-how-functions-work.html
+- https://doc.rust-lang.org/book/ch03-04-comments.html
