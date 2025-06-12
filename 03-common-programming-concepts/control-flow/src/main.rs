@@ -116,4 +116,83 @@ fn main() {
         count += 1
     }
     println!("End count = {count}");
+
+    // Conditional Loops with while
+
+    /*
+        A program will often need to evaluate a condition within a loop. 
+        While the condition is true, the loop runs. 
+        When the condition ceases to be true, 
+        the program calls break, stopping the loop. 
+        It’s possible to implement behavior like this using a combination of loop, 
+        if, else, and break; 
+     */
+
+    let mut number = 3;
+
+    while number != 0 {
+        println!("{number}");
+
+        number -= 1;
+    }
+
+    println!("LIFTOFF!");
+
+    // Looping Through a Collection with for
+
+    /*
+        the code counts up through the elements in the array. 
+        It starts at index 0, and then loops until it reaches the final index in the array 
+        (that is, when index < 5 is no longer true). 
+        Running this code will print every element in the array:
+
+        but forgot to update the condition, the code would panic.
+        It’s also slow, because the compiler adds runtime code to perform the conditional 
+        check of whether the index is within the bounds of the array on every
+        iteration through the loop.
+     */
+
+    let a = [10, 20, 30, 40, 50];
+    let mut index = 0;
+
+    while index < 5 {
+        println!("the value is: {}", a[index]);
+
+        index += 1;
+    }
+
+    /* 
+        more concise alternative, you can use a for loop and execute some code 
+        for each time in a collection
+
+        we’ve now increased the safety of the code and eliminated the chance of 
+        bugs that might result from going beyond the end of the array or not going 
+        far enough and missing some items.
+
+        Using the for loop, you wouldn’t need to remember to change any other 
+        code if you changed the number of values in the array
+    */
+
+    let a = [10, 20, 30, 40, 50];
+
+    for element in a {
+        println!("the value is: {element}");
+    }
+
+    /*
+        most Rustaceans would use a for loop. 
+        The way to do that would be to use a Range, provided by the standard library, 
+        which generates all numbers in sequence starting from one number and ending 
+        before another number.
+
+        Here’s what the countdown would look like using a for loop and another method 
+        we’ve not yet talked about, `rev``, to reverse the range:
+
+        loop between 1 to 3
+     */
+
+    for number in (1..4).rev() {
+        println!("{number}!");
+    }
+    println!("LIFTOFF!!!");
 }
