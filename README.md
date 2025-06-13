@@ -37,4 +37,4 @@ This time, I'm planning to learn Rust gonna follow this guide: https://doc.rust-
 ------------------------------
 
 <B>What's coming up next:</B>
-- https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html#dangling-references
+- https://doc.rust-lang.org/book/ch04-03-slices.html#string-literals-as-slices
