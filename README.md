@@ -37,4 +37,4 @@ This time, I'm planning to learn Rust gonna follow this guide: https://doc.rust-
 ------------------------------
 
 <B>What's coming up next:</B>
-- https://doc.rust-lang.org/book/ch04-03-slices.html#string-literals-as-slices
+- https://doc.rust-lang.org/book/ch05-00-structs.html
