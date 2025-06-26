@@ -37,4 +37,4 @@ This time, I'm planning to learn Rust gonna follow this guide: https://doc.rust-
 ------------------------------
 
 <B>What's coming up next:</B>
-- https://doc.rust-lang.org/book/ch05-00-structs.html
+- https://doc.rust-lang.org/book/ch05-02-example-structs.html#an-example-program-using-structs
