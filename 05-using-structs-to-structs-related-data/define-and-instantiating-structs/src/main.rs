@@ -1,3 +1,9 @@
+struct Color(i32, i32, i32);
+struct Point(i32, i32, i32);
+
+
+struct AlwaysEqual;
+
 struct User {
     active: bool,
     username: String,
@@ -70,4 +76,12 @@ fn main() {
         "user4 -> username: {2} | email: {1} | active: {0} | sign_in_count: {3}", 
         user4.active, user4.email, user4.username, user4.sign_in_count
     );
+
+    // Using Tuple Structs without Named Fields to Create Different Types
+    let black = Color(0, 0, 0);
+    let origin = Point(0, 0, 0);
+    println!("black: {0}", black.0); // use . followed by the index to access an individual value
+    println!("origin: {0}", origin.1);
+
+    let subject = AlwaysEqual;
 }
