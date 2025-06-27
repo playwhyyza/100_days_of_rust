@@ -10,7 +10,10 @@ Hey, It's been ages since I last code this repo must be like 4 or 5 years alread
 Alright, I think it's time for a fresh start.
 Hoping this time it'll acutally work out.
 
-This time, I'm planning to learn Rust gonna follow this guide: https://doc.rust-lang.org/book/ and  https://rust-lang.github.io/fls/
+This time, I'm planning to learn Rust gonna follow this guide: 
+- https://doc.rust-lang.org/book/
+- https://rust-lang.github.io/fls/
+- https://yevh.github.io/rust-security-handbook/ [security handbook]
 
 ------------------------------
 
