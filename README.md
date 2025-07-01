@@ -40,4 +40,4 @@ This time, I'm planning to learn Rust gonna follow this guide:
 ------------------------------
 
 <B>What's coming up next:</B>
-- https://doc.rust-lang.org/book/ch06-00-enums.html
+- https://doc.rust-lang.org/book/ch06-01-defining-an-enum.html#the-option-enum-and-its-advantages-over-null-values
