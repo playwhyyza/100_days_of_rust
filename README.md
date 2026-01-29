@@ -14,6 +14,7 @@ This time, I'm planning to learn Rust gonna follow this guide:
 - https://doc.rust-lang.org/book/
 - https://rust-lang.github.io/fls/
 - https://yevh.github.io/rust-security-handbook/ [security handbook]
+- https://thinknetcompany.github.io/learnrust/
 
 ------------------------------
 
