@@ -23,6 +23,9 @@ This time, I'm planning to learn Rust gonna follow this guide:
     - look like pypi.org of python
 
  - cargo new {project_name}
+ 
+ - cargo init 
+    - Create a new Cargo package in an existing directory
 
  - cargo add {denpencies}
 
