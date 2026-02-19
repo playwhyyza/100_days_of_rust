@@ -16,7 +16,10 @@ This time, I'm planning to learn Rust gonna follow this guide:
 - https://yevh.github.io/rust-security-handbook/ [security handbook]
 - https://thinknetcompany.github.io/learnrust/
 - https://rust-exercises.com/100-exercises/01_intro/00_welcome.html
-- https://www.youtube.com/watch?v=GVCR8b_33zo | Rust Programming by CodeBangkok
+- https://www.youtube.com/watch?v=GVCR8b_33zo | Rust Programming by CodeBangkok EP.1
+- https://www.youtube.com/watch?v=k9ZzKG8fdN8 | Rust Programming by CodeBangkok EP.2
+- https://www.youtube.com/watch?v=MZRlVMoef94 | Rust Programming by CodeBangkok EP.3 HTTP Server
+
 ------------------------------
 
  - https://crates.io/
@@ -44,20 +47,20 @@ This time, I'm planning to learn Rust gonna follow this guide:
 
 ------------------------------
 
-Noted:
+## Noted:
 
-- Ownership Rules
+- ### Ownership Rules
    - Each value in Rust has a variable that's called its owner.
    - There can only be on owner at a time.
    - When the owner goes out of scope, the value will be dropped.
 
-- Stack
+- ### Stack
    - Region of the process memory that stores variable created by each function.
    - Every function call a new stack frame is allocated on top of the current one.
    - Size of every variable on the stack has to be known at compile time.
    - When a function exits it's stack frame is released.
 
-- Heap
+- ### Heap
    - Region of the process memory that is NOT automatically managed.
    - It has no size restrictions.
    - It's accessible by any function, anywhere in the program.
