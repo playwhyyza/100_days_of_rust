@@ -51,6 +51,12 @@ Noted:
    - There can only be on owner at a time.
    - When the owner goes out of scope, the value will be dropped.
 
+- Stack
+   - Region of the process memory that stores variable created by each function.
+   - Every function call a new stack frame is allocated on top of the current one.
+   - Size of every variable on the stack has to be known at compile time.
+   - When a function exits it's stack frame is released.
+
 ------------------------------
 
 <B>What's coming up next:</B>
