@@ -44,5 +44,14 @@ This time, I'm planning to learn Rust gonna follow this guide:
 
 ------------------------------
 
+Noted:
+
+- Ownership Rules
+   - Each value in Rust has a variable that's called its owner.
+   - There can only be on owner at a time.
+   - When the owner goes out of scope, the value will be dropped.
+
+------------------------------
+
 <B>What's coming up next:</B>
 - https://doc.rust-lang.org/book/ch06-01-defining-an-enum.html#the-option-enum-and-its-advantages-over-null-values
