@@ -57,6 +57,11 @@ Noted:
    - Size of every variable on the stack has to be known at compile time.
    - When a function exits it's stack frame is released.
 
+- Heap
+   - Region of the process memory that is NOT automatically managed.
+   - It has no size restrictions.
+   - It's accessible by any function, anywhere in the program.
+   - Heap allocations are expensive and we should aviod them when possible.
 ------------------------------
 
 <B>What's coming up next:</B>
