@@ -16,6 +16,7 @@ This time, I'm planning to learn Rust gonna follow this guide:
 - https://yevh.github.io/rust-security-handbook/ [security handbook]
 - https://thinknetcompany.github.io/learnrust/
 - https://rust-exercises.com/100-exercises/01_intro/00_welcome.html
+- https://www.youtube.com/watch?v=GVCR8b_33zo | Rust Programming by CodeBangkok
 ------------------------------
 
  - https://crates.io/
